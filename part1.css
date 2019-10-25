@@ -1,0 +1,29 @@
+html {
+    background: white;
+    min-width: 1280px;
+    min-height: 720px;
+    overflow: auto;
+
+    font-family: "Sarabun", sans-serif;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.1em;
+}
+body {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.x.axis path {
+    display: none;
+}
