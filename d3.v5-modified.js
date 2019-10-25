@@ -11341,6 +11341,7 @@ function tree() {
           kx = dx / (right.x + s + tx),
           ky = dy / (bottom.depth || 1);
       root.eachBefore(function(node){
+        // modified code node.x = 60-node.x
         node.x = 60-node.x;
         node.x = (node.x + tx) * kx;
         node.y = node.depth * ky;
